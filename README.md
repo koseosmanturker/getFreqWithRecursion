@@ -12,24 +12,9 @@ Be careful about the base case.
 If the last element of the subarray is the same as its first element (another base case), that implies that all subarray items are similar (since the array is sorted), and we update the element frequency value by the total number of elements in the subarray.
 An output example is given below.
 
-public class Main {
-	public static void main(String[] args){
-		int[] numbers;
-		int[] frequencies;
-		// take a sorted number sequence with duplicate values from the user.   
-		
-		// declare the frequencies array and set all of its values to zero
-		
-		findFrequency(numbers, 0, numbers.length - 1, frequencies);
-		
-		// print the numbers and their frequencies
-	}
-	public static void findFrequency(int[] numbers, int left_index, int right_index, int[] frequencies){
-		// you should fill inside of this function
-	}
-
 Output
 Input: 1, 1, 2, 2, 2, 4, 4, 4, 4, 4, 5, 5, 6, 8, 8, 9
+
 Num-Freq
 1	2
 2	3

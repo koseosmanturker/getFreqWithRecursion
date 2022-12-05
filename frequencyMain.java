@@ -45,11 +45,6 @@ public class frequencyMain {
 			return;
 		}
 		
-		/*
-		 * If the last element of the subarray is the same as its first element (another base case)
-		 * that implies that all subarray items are similar (since the array is sorted), and we update
-		 * the element frequency value by the total number of elements in the subarray.
-		 */
 		if(numbers[left_index] == numbers[right_index]) {
 			
 			int number = numbers[left_index];
